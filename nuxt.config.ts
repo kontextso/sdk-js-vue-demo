@@ -6,7 +6,7 @@ export default defineNuxtConfig({
       title: 'Kontext SDK JS + Vue Demo',
       script: [
         {
-          src: 'https://server.kontext.so/sdk/js?type=global&publisherToken=polybuzz-dev',
+          src: 'https://server.megabrain.co/sdk/js?type=global&publisherToken=polybuzz-dev',
           defer: true,
         },
       ],

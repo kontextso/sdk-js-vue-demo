@@ -16,8 +16,8 @@ const sdkReady = ref(false)
 
 const { createSession, getSession } = useKontextAds()
 
-const conversationId = Math.random().toString(36).substring(2, 15)
-const userId = Math.random().toString(36).substring(2, 15)
+const conversationId = 'conversation-123'
+const userId = 'user-123'
 
 function getRandomId() {
   return Date.now() + Math.random().toString(36).substring(2, 15)
