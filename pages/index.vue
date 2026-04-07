@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const PUBLISHER_TOKEN = 'polybuzz-dev'
+const PUBLISHER_TOKEN = '{PUBLISHER_TOKEN}'
 const PLACEMENT_CODE = 'inlineAd'
 
 interface Message {
